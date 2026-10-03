@@ -106,7 +106,14 @@ fun TugasLogin() {
                 contentAlignment = Alignment.Center
             ) {
 
-
+                Image(
+                    painter = painterResource(id = R.drawable.kucing),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .clip(CircleShape),
+                    contentScale = ContentScale.Crop
+                )
             }
         }
     }
