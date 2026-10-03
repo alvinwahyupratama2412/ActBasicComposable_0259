@@ -60,6 +60,17 @@ fun TugasLogin() {
                 color = Color.Black
             )
 
+            Spacer(modifier = Modifier.height(60.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(150.dp),
+                contentScale = ContentScale.Fit
+            )
+
+            Spacer(modifier = Modifier.height(60.dp))
+
 
         }
     }
