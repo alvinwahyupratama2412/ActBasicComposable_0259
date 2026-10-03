@@ -33,6 +33,13 @@ fun TugasLogin() {
             .background(Color.White)
     ) {
 
+        Image(
+            painter = painterResource(id = R.drawable.bg),
+            contentDescription = null,
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+
 
     }
 }
