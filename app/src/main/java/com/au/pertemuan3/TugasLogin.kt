@@ -40,6 +40,14 @@ fun TugasLogin() {
             contentScale = ContentScale.Crop
         )
 
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 45.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
 
+
+        }
     }
 }
