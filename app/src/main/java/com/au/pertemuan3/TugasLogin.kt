@@ -94,7 +94,20 @@ fun TugasLogin() {
 
             Spacer(modifier = Modifier.height(25.dp))
 
+            Box(
+                modifier = Modifier
+                    .size(460.dp)
+                    .clip(CircleShape)
+                    .border(
+                        width = 5.dp,
+                        color = Color.White,
+                        shape = CircleShape
+                    ),
+                contentAlignment = Alignment.Center
+            ) {
 
+
+            }
         }
     }
 }
