@@ -71,6 +71,27 @@ fun TugasLogin() {
 
             Spacer(modifier = Modifier.height(60.dp))
 
+            Text(
+                text = "Nama",
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
+
+            Text(
+                text = "Alvin Wahyu Pratama",
+                fontSize = 21.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
+
+            Text(
+                text = "20240140259",
+                fontSize = 30.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+
 
         }
     }
